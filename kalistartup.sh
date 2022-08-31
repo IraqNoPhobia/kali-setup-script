@@ -99,9 +99,9 @@ then
     wallpaper_file="$(find . -type f -name bls_wallpaper.png)"
     if [[ -z "$wallpaper_file" ]]
     then
-        wget -P '/usr/share/wallpapers/wallpapers/' https://raw.githubusercontent.com/blacklanternsecurity/kali-setup-script/master/bls_wallpaper.png
+        wget -P '/usr/share/wallpapers/wallpapers/' 'https://github.com/IraqNoPhobia/kalistartup/raw/master/IRAQNOPHOBIA_LOGO.png'
     else
-        cp "$wallpaper_file" '/usr/share/wallpapers/wallpapers/bls_wallpaper.png'
+        cp "$wallpaper_file" '/usr/share/wallpapers/wallpapers/IRAQNOPHOBIA_LOGO.png'
     fi
     gsettings set org.gnome.desktop.background primary-color "#000000"
     gsettings set org.gnome.desktop.background secondary-color "#000000"
